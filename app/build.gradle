@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "io.github.ichisadashioko.android.screenmirror"
+        minSdkVersion 10
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 10
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

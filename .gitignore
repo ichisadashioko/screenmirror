@@ -1,0 +1,22 @@
+# IntelliJ IDEA project files
+*.iml
+.idea
+local.properties
+# Android Studio
+build
+captures
+.externalNativeBuild
+.cxx
+.project
+.classpath
+.settings
+# Proguard files
+*.pro
+# Gradle cache
+.gradle
+# Generated Gradle
+gradle/
+# macOS
+.DS_Store
+# VS Code
+.vscode
